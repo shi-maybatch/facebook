@@ -1,7 +1,3 @@
-i
-this file contains string related funtions
 
-
-
-
+this file contains the string related functions
 
