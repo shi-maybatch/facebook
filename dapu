@@ -1,0 +1,10 @@
+
+ git config --global user.email "you@parvathikall1999@gmail.com"
+  git config --global user.name "parvathikallbarath"
+
+
+
+
+git push kp https://github.com/shi-maybatch/walmart.git
+git remote add wm https://github.com/shi-maybatch/walmart.git
+
