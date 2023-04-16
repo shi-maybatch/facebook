@@ -1,2 +1,94 @@
 i this is proses of git
 
+Dell@DESKTOP-E24TO3I MINGW64 ~/Desktop/walmart (master)
+$ mkdir kot
+
+Dell@DESKTOP-E24TO3I MINGW64 ~/Desktop/walmart (master)
+$ vi proces
+
+Dell@DESKTOP-E24TO3I MINGW64 ~/Desktop/walmart (master)
+$ git status
+On branch master
+Your branch is up to date with 'wm/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        dev
+        proces
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Dell@DESKTOP-E24TO3I MINGW64 ~/Desktop/walmart (master)
+$ git add .
+warning: in the working copy of 'proces', LF will be replaced by CRLF the next time Git touches it
+
+Dell@DESKTOP-E24TO3I MINGW64 ~/Desktop/walmart (master)
+$ git status
+On branch master
+Your branch is up to date with 'wm/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   dev
+        new file:   proces
+
+
+Dell@DESKTOP-E24TO3I MINGW64 ~/Desktop/walmart (master)
+$ git commit -m proces
+[master cd21d4c] proces
+ 2 files changed, 2 insertions(+)
+ create mode 100644 dev
+ create mode 100644 proces
+
+Dell@DESKTOP-E24TO3I MINGW64 ~/Desktop/walmart (master)
+$ git commit -m dev
+On branch master
+Your branch is ahead of 'wm/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Dell@DESKTOP-E24TO3I MINGW64 ~/Desktop/walmart (master)
+$ git status
+On branch master
+Your branch is ahead of 'wm/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Dell@DESKTOP-E24TO3I MINGW64 ~/Desktop/walmart (master)
+$ git remote add wm https://github.com/shi-maybatch/walmart.git
+error: remote wm already exists.
+
+Dell@DESKTOP-E24TO3I MINGW64 ~/Desktop/walmart (master)
+$ git remote -v https://github.com/shi-maybatch/walmart.git
+error: unknown subcommand: `https://github.com/shi-maybatch/walmart.git'
+usage: git remote [-v | --verbose]
+   or: git remote add [-t <branch>] [-m <master>] [-f] [--tags | --no-tags] [--mirror=<fetch|push>] <name> <url>
+   or: git remote rename [--[no-]progress] <old> <new>
+   or: git remote remove <name>
+   or: git remote set-head <name> (-a | --auto | -d | --delete | <branch>)
+   or: git remote [-v | --verbose] show [-n] <name>
+   or: git remote prune [-n | --dry-run] <name>
+   or: git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]
+   or: git remote set-branches [--add] <name> <branch>...
+   or: git remote get-url [--push] [--all] <name>
+   or: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    -v, --verbose         be verbose; must be placed before a subcommand
+
+
+Dell@DESKTOP-E24TO3I MINGW64 ~/Desktop/walmart (master)
+$ git push wm master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 302 bytes | 302.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/shi-maybatch/walmart.git
+   5836417..cd21d4c  master -> master
+
