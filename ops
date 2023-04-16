@@ -1,0 +1,6 @@
+
+git push wm master --force
+git pull --rebase wm master
+git push -u wm master
+you can see logs git log.
+
