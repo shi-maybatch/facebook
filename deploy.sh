@@ -7,4 +7,7 @@ hello i am updating this line dev branch
 
 hello iam updating new line its also alredy existing file
 
+i 
+this is shivaparvathi
+`:wq
 
