@@ -8,3 +8,87 @@
 git push kp https://github.com/shi-maybatch/walmart.git
 git remote add wm https://github.com/shi-maybatch/walmart.git
 
+<<<<<<< HEAD
+=======
+
+
+
+tag cmands
+
+
+
+
+Dell@DESKTOP-E24TO3I MINGW64 ~/desktop/walmart (master)
+$ git tag
+
+Dell@DESKTOP-E24TO3I MINGW64 ~/desktop/walmart (master)
+$ git tag walmartv.1.0.0
+
+Dell@DESKTOP-E24TO3I MINGW64 ~/desktop/walmart (master)
+$ git tag
+walmartv.1.0.0
+
+Dell@DESKTOP-E24TO3I MINGW64 ~/desktop/walmart (master)
+$ git push wm --a
+error: ambiguous option: a (could be --all or --atomic)
+usage: git push [<options>] [<repository> [<refspec>...]]
+
+    -v, --verbose         be more verbose
+    -q, --quiet           be more quiet
+    --repo <repository>   repository
+    --all                 push all refs
+    --mirror              mirror all refs
+    -d, --delete          delete refs
+    --tags                push tags (can't be used with --all or --mirror)
+    -n, --dry-run         dry run
+    --porcelain           machine-readable output
+    -f, --force           force updates
+    --force-with-lease[=<refname>:<expect>]
+                          require old value of ref to be at this value
+    --force-if-includes   require remote updates to be integrated locally
+    --recurse-submodules (check|on-demand|no)
+                          control recursive pushing of submodules
+    --thin                use thin pack
+    --receive-pack <receive-pack>
+                          receive pack program
+    --exec <receive-pack>
+                          receive pack program
+    -u, --set-upstream    set upstream for git pull/status
+    --progress            force progress reporting
+    --prune               prune locally removed refs
+    --no-verify           bypass pre-push hook
+    --follow-tags         push missing but relevant tags
+    --signed[=(yes|no|if-asked)]
+                          GPG sign the push
+    --atomic              request atomic transaction on remote side
+    -o, --push-option <server-specific>
+                          option to transmit
+    -4, --ipv4            use IPv4 addresses only
+    -6, --ipv6            use IPv6 addresses only
+
+
+Dell@DESKTOP-E24TO3I MINGW64 ~/desktop/walmart (master)
+$ git push wm --tags
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/shi-maybatch/walmart.git
+ * [new tag]         walmartv.1.0.0 -> walmartv.1.0.0
+
+Dell@DESKTOP-E24TO3I MINGW64 ~/desktop/walmart (master)
+$ git tag -d walmartv.1.0.0
+Deleted tag 'walmartv.1.0.0' (was c2dafd5)
+
+Dell@DESKTOP-E24TO3I MINGW64 ~/desktop/walmart (master)
+$ git tag
+
+Dell@DESKTOP-E24TO3I MINGW64 ~/desktop/walmart (master)
+$
+itwill deleted when we are using git tag -d
+
+
+
+
+
+
+
+hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+>>>>>>> 2989df5 (tag commands updated)
