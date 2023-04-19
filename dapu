@@ -9,6 +9,11 @@
 git push kp https://github.com/shi-maybatch/walmart.git
 git remote add wm https://github.com/shi-maybatch/walmart.git
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> development
 
 
 
@@ -88,5 +93,11 @@ itwill deleted when we are using git tag -d
 
 
 
+<<<<<<< HEAD
 gggggggggggggggggggggggggggggggggggi
 hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+=======
+
+hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+>>>>>>> 2989df5 (tag commands updated)
+>>>>>>> development
